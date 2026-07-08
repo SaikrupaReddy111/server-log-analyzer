@@ -50,30 +50,32 @@ public class LogAnalyzer {
 
         System.out.println("\nERRORS:");
 
-        if(errors.isEmpty()) {
+        if (errors.isEmpty()) {
             System.out.println("No errors found");
         }
 
-        for(String error : errors) {
+        for (String error : errors) {
             System.out.println(error);
         }
 
 
         System.out.println("\nWARNINGS:");
 
-        if(warnings.isEmpty()) {
+        if (warnings.isEmpty()) {
             System.out.println("No warnings found");
         }
 
-        for(String warning : warnings) {
+        for (String warning : warnings) {
             System.out.println(warning);
         }
 
 
-        if(errors.size() > 0) {
+        if (errors.size() > 0) {
+
             System.out.println("\nSTATUS: NEEDS ATTENTION");
-        }
-        else {
+
+        } else {
+
             System.out.println("\nSTATUS: HEALTHY");
         }
     }
