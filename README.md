@@ -18,7 +18,7 @@ Technologies Used
 
 Sample Output
 
-===== SERVER LOG REPORT =====
+SERVER LOG REPORT
 
 Total Logs: 6
 
